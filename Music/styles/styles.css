@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+header {
+    height: 370px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header h1 {
+    position:relative;
+    color: #ffffffa6;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+header h1 span{
+    color: #ffffff;
+    font-weight: 400;
+}
+.music{
+    max-width: 850px;
+    min-height: 430px;
+    margin: auto;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+.textoM{
+    width: 50%;
+    
+}
+.textoM h2{
+    font-size: 27px;    
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom:12px ;
+    color: #333333;
+}
+.textoM h2 span {
+    color: #f34d65;
+}
+.textoM p {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #555555;
+    margin-bottom: 15px;
+}
+.music img {
+    width: 38%;
+    height: 300px;
+    object-fit: cover;
+}
+
